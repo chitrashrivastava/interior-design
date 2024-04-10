@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.page{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(10, 10, 10);
+    display: flex;
+}
+nav{
+    width: 100%;
+    height: 10vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+.left{
+    width: 60%;
+    height: 100vh;
+    background-color:aliceblue;
+}
+.leftcenter{
+    width: 100%;
+    height: 80vh;
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+}
+.black{
+    width: 8%;
+    height: 80vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.white{
+    width: 2%;
+    height: 40vh;
+    background-color: white;
+}
+.leftimg{
+    width: 85%;
+    height: 80vh;
+    /* background-color: rgb(162, 162, 163); */
+   background-image: url(https://images.unsplash.com/photo-1595428773927-7c9c75203a2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1892&q=80);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+    transform: translateX(20%);
+}
+.right{
+    width: 40%;
+    height: 100vh;
+    background-color:black;
+}
+nav h1{
+    font-size: 6vh;
+}
+.rnav{
+    display: flex;
+    gap: 70px;
+    padding-left: 70px;  
+}
+.rnav >i{
+    font-size: 22px;
+}
+.rnav:hover h4{
+    border-bottom: 2px solid black;
+}
+.sch{
+padding: 0 25px;
+border-radius: 10px;
+}
+.lbot{
+    width: 15%;
+    height: 7vh;
+    background-color: black;
+    position: absolute;
+    left: 10%;
+    top: 93%;
+}
+.lbot h4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+      padding-top: 7%;
+}
+.menu{
+    width: 50%;
+    height: 15vh;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 22px;
+}
+.menu>i{
+    color: white;
+}
